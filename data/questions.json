@@ -1,0 +1,2402 @@
+[
+  {
+    "category": "Cloud fundamentals",
+    "question": "What is the defining characteristic of on-demand cloud computing?",
+    "options": [
+      "Resources can be provisioned when needed without lengthy provider interaction",
+      "Every workload must use dedicated physical hardware",
+      "Capacity is fixed at purchase time",
+      "All data must remain on a user's laptop"
+    ],
+    "answerIndex": 0,
+    "explanation": "Self-service provisioning lets consumers request resources as their needs change."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "Which description best fits the measured-service characteristic of cloud computing?",
+    "options": [
+      "A fixed annual invoice regardless of consumption",
+      "Resource usage is metered and can be reported or billed",
+      "Every resource is managed manually",
+      "Services are available only on a private network"
+    ],
+    "answerIndex": 1,
+    "explanation": "Usage measurement supports transparency, monitoring, and consumption-based billing."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "What does resource pooling mean in a cloud environment?",
+    "options": [
+      "Each customer owns an isolated data center",
+      "Resources are shared across consumers and allocated dynamically",
+      "All workloads use a single operating system",
+      "Customers must reserve every resource permanently"
+    ],
+    "answerIndex": 1,
+    "explanation": "A provider pools resources to serve multiple consumers while isolating their workloads."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "Which cloud characteristic helps an application scale quickly as demand rises?",
+    "options": [
+      "Fixed capacity",
+      "Elasticity",
+      "Manual procurement",
+      "Data deduplication"
+    ],
+    "answerIndex": 1,
+    "explanation": "Elasticity adds or removes resources to match changing demand."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "What is broad network access in the context of cloud services?",
+    "options": [
+      "Services are reachable through standard networks and client devices",
+      "All traffic must use one dedicated cable",
+      "Only administrators can connect from a data center",
+      "Every service is available without authentication"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cloud capabilities are available over networks through standard client mechanisms."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "A team provisions extra capacity during a peak and releases it afterward. Which benefit are they using?",
+    "options": [
+      "Elastic scaling",
+      "Data sovereignty",
+      "Static allocation",
+      "Vendor lock-in"
+    ],
+    "answerIndex": 0,
+    "explanation": "Elastic scaling adjusts provisioned capacity to current demand."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "Which statement describes a public cloud?",
+    "options": [
+      "Cloud services offered to multiple customers over shared provider infrastructure",
+      "A server room used by one organization only",
+      "A network with no internet connectivity",
+      "A cloud used only for public-sector data"
+    ],
+    "answerIndex": 0,
+    "explanation": "Public cloud resources are provided by a cloud provider for use by many customers."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "What is a private cloud?",
+    "options": [
+      "A cloud environment dedicated to one organization",
+      "Any service that uses encryption",
+      "A public website hosted in a cloud",
+      "A cloud account without billing"
+    ],
+    "answerIndex": 0,
+    "explanation": "A private cloud is used exclusively by a single organization."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "What best describes a hybrid cloud?",
+    "options": [
+      "A mix of cloud environments connected to operate together",
+      "Two public-cloud accounts with no integration",
+      "A cloud that runs only on mobile devices",
+      "A data center that cannot connect to a network"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hybrid cloud combines distinct environments, commonly private infrastructure and public cloud."
+  },
+  {
+    "category": "Cloud fundamentals",
+    "question": "Which statement best describes a community cloud?",
+    "options": [
+      "An environment shared by organizations with common needs or requirements",
+      "A cloud available only to individual consumers",
+      "A public cloud region with no customers",
+      "A set of unrelated personal accounts"
+    ],
+    "answerIndex": 0,
+    "explanation": "A community cloud serves organizations with shared concerns, such as policy or compliance."
+  },
+  {
+    "category": "Service models",
+    "question": "In an IaaS service model, which responsibility most commonly remains with the customer?",
+    "options": [
+      "Maintaining the provider's physical servers",
+      "Patching the guest operating system",
+      "Replacing failed provider disks",
+      "Operating the provider's power systems"
+    ],
+    "answerIndex": 1,
+    "explanation": "With IaaS, the provider manages underlying infrastructure while the customer manages the guest OS and above."
+  },
+  {
+    "category": "Service models",
+    "question": "Which service model provides a managed application runtime so developers can deploy code without managing servers?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "Colocation",
+      "On-premises hosting"
+    ],
+    "answerIndex": 1,
+    "explanation": "PaaS abstracts server and runtime management so developers can focus on application code."
+  },
+  {
+    "category": "Service models",
+    "question": "Which service model usually gives the customer the least infrastructure management?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Dedicated hardware"
+    ],
+    "answerIndex": 2,
+    "explanation": "SaaS delivers a complete application managed by the provider."
+  },
+  {
+    "category": "Service models",
+    "question": "A company wants virtual machines and control over their guest operating systems. Which model fits best?",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "BPaaS"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaaS provides virtualized compute while leaving guest operating-system management to the customer."
+  },
+  {
+    "category": "Service models",
+    "question": "A developer wants to deploy application code without provisioning or patching operating systems. Which model is a natural fit?",
+    "options": [
+      "PaaS",
+      "IaaS",
+      "Private colocation",
+      "Bare metal"
+    ],
+    "answerIndex": 0,
+    "explanation": "PaaS manages the platform and operating systems on which application code runs."
+  },
+  {
+    "category": "Service models",
+    "question": "Who is typically responsible for protecting data and managing user access in a SaaS application?",
+    "options": [
+      "Only the network carrier",
+      "The customer, with responsibilities shared with the provider",
+      "Only the hardware manufacturer",
+      "No one, because SaaS removes all customer responsibilities"
+    ],
+    "answerIndex": 1,
+    "explanation": "The provider manages the application service, but the customer still configures access and handles its data."
+  },
+  {
+    "category": "Service models",
+    "question": "What does the shared responsibility model describe?",
+    "options": [
+      "How security duties are divided between cloud provider and customer",
+      "How a customer shares its password",
+      "A contract to share virtual machines with competitors",
+      "A guarantee that the provider assumes every security task"
+    ],
+    "answerIndex": 0,
+    "explanation": "Responsibilities vary by service model, but security duties are shared."
+  },
+  {
+    "category": "Service models",
+    "question": "Which responsibility generally stays with the cloud provider for IaaS?",
+    "options": [
+      "Configuring the customer's application permissions",
+      "Securing physical facilities and host hardware",
+      "Classifying customer business data",
+      "Writing customer application code"
+    ],
+    "answerIndex": 1,
+    "explanation": "The provider secures and operates the physical cloud infrastructure."
+  },
+  {
+    "category": "Service models",
+    "question": "What is a serverless computing platform primarily designed to do?",
+    "options": [
+      "Run code without customers managing the underlying server fleet",
+      "Eliminate the need for application code",
+      "Guarantee unlimited free compute",
+      "Require a dedicated server for every request"
+    ],
+    "answerIndex": 0,
+    "explanation": "The provider handles server provisioning and scaling while customers supply code or functions."
+  },
+  {
+    "category": "Service models",
+    "question": "How are serverless functions commonly billed?",
+    "options": [
+      "Only by the physical server's purchase price",
+      "By measured execution and allocated resources",
+      "By the number of developers employed",
+      "Only through a fixed hardware lease"
+    ],
+    "answerIndex": 1,
+    "explanation": "Many serverless services meter execution time and resources consumed."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What is the primary goal of designing for high availability?",
+    "options": [
+      "Keep a service accessible despite component failures",
+      "Prevent all software updates",
+      "Ensure the service has only one instance",
+      "Avoid measuring service health"
+    ],
+    "answerIndex": 0,
+    "explanation": "High availability reduces interruptions through redundancy and failure recovery."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What does fault tolerance aim to provide?",
+    "options": [
+      "Continued operation when one or more components fail",
+      "A guarantee that no component will ever fail",
+      "Lower data retention requirements",
+      "A single point of control for every resource"
+    ],
+    "answerIndex": 0,
+    "explanation": "A fault-tolerant system continues operating, potentially at reduced capacity, after failures."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What is horizontal scaling?",
+    "options": [
+      "Adding more instances to share a workload",
+      "Increasing the memory of one instance",
+      "Moving an application to a larger monitor",
+      "Reducing the number of application replicas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Horizontal scaling increases capacity by adding instances."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What is vertical scaling?",
+    "options": [
+      "Adding more independent application instances",
+      "Increasing the capacity of an existing instance",
+      "Moving a service to another region",
+      "Adding more database replicas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Vertical scaling changes the resources available to an individual instance."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "Why use a load balancer in a multi-instance application?",
+    "options": [
+      "Distribute incoming requests across healthy instances",
+      "Encrypt every stored database field",
+      "Replace application monitoring",
+      "Guarantee zero network latency"
+    ],
+    "answerIndex": 0,
+    "explanation": "A load balancer routes requests among back-end instances to improve availability and throughput."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What is a single point of failure?",
+    "options": [
+      "A component whose failure can make the whole service unavailable",
+      "A monitoring dashboard with one chart",
+      "A redundant service with multiple replicas",
+      "A test environment with one user"
+    ],
+    "answerIndex": 0,
+    "explanation": "An un-redundant critical component can cause a broad outage if it fails."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What does loose coupling between services help achieve?",
+    "options": [
+      "Independent change and failure isolation",
+      "A requirement that all services share one database",
+      "Permanent synchronization of deployments",
+      "Elimination of all network communication"
+    ],
+    "answerIndex": 0,
+    "explanation": "Loosely coupled components depend less on each other's internal implementation."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "What is a microservices architecture?",
+    "options": [
+      "An application composed of small services organized around capabilities",
+      "One large application deployed as a single unit",
+      "A network protocol for storage devices",
+      "An operating system with a small footprint"
+    ],
+    "answerIndex": 0,
+    "explanation": "Microservices split an application into independently deployable services."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "Which architectural choice can help isolate a failing dependency from the rest of an application?",
+    "options": [
+      "A circuit breaker pattern",
+      "A shared administrator password",
+      "A larger screen",
+      "A flat network with unrestricted access"
+    ],
+    "answerIndex": 0,
+    "explanation": "A circuit breaker stops repeated calls to an unhealthy dependency and allows recovery."
+  },
+  {
+    "category": "Architecture principles",
+    "question": "Why design a workload to be stateless where practical?",
+    "options": [
+      "Any healthy instance can handle a request without relying on local session state",
+      "It makes persistent data unnecessary",
+      "It prevents users from authenticating",
+      "It eliminates the need for backups"
+    ],
+    "answerIndex": 0,
+    "explanation": "Externalizing session state makes horizontal scaling and instance replacement easier."
+  },
+  {
+    "category": "Networking",
+    "question": "What is the purpose of a virtual private cloud or virtual network?",
+    "options": [
+      "Provide a logically isolated network space for cloud resources",
+      "Replace identity authentication",
+      "Store application backups",
+      "Automate software testing"
+    ],
+    "answerIndex": 0,
+    "explanation": "A virtual network defines an isolated, configurable network for cloud resources."
+  },
+  {
+    "category": "Networking",
+    "question": "What is a subnet?",
+    "options": [
+      "A logical subdivision of an IP network",
+      "A database backup format",
+      "A type of encryption key",
+      "A service-level objective"
+    ],
+    "answerIndex": 0,
+    "explanation": "Subnets divide an IP address range into smaller network segments."
+  },
+  {
+    "category": "Networking",
+    "question": "What does DNS primarily do?",
+    "options": [
+      "Translate domain names into IP addresses and other records",
+      "Encrypt files stored in an object bucket",
+      "Assign database indexes",
+      "Authenticate every application user"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Domain Name System maps names to records such as IP addresses."
+  },
+  {
+    "category": "Networking",
+    "question": "What does a firewall rule commonly control?",
+    "options": [
+      "Whether network traffic is allowed or denied based on defined criteria",
+      "Whether a database row is encrypted",
+      "How a CPU executes instructions",
+      "Which cloud service is cheapest"
+    ],
+    "answerIndex": 0,
+    "explanation": "Firewalls filter network traffic using rules such as direction, protocol, port, or address."
+  },
+  {
+    "category": "Networking",
+    "question": "What is the main purpose of a VPN?",
+    "options": [
+      "Create an encrypted tunnel across an untrusted network",
+      "Distribute compute requests",
+      "Replicate a database table",
+      "Replace endpoint authorization"
+    ],
+    "answerIndex": 0,
+    "explanation": "A virtual private network protects traffic between connected endpoints over a public network."
+  },
+  {
+    "category": "Networking",
+    "question": "Which connection is generally suited to a predictable, private link between an enterprise site and a cloud provider?",
+    "options": [
+      "A dedicated private connection",
+      "An open public Wi-Fi hotspot",
+      "A public DNS record",
+      "An application cache"
+    ],
+    "answerIndex": 0,
+    "explanation": "A dedicated connection can provide private connectivity with more predictable network characteristics."
+  },
+  {
+    "category": "Networking",
+    "question": "What does a content delivery network primarily improve?",
+    "options": [
+      "Delivery of cached content from locations closer to users",
+      "Database schema design",
+      "Identity lifecycle management",
+      "Virtual machine patching"
+    ],
+    "answerIndex": 0,
+    "explanation": "A CDN caches content at distributed edge locations to reduce latency and origin load."
+  },
+  {
+    "category": "Networking",
+    "question": "What is network latency?",
+    "options": [
+      "The time taken for data to travel between endpoints",
+      "The total amount of stored data",
+      "The number of user identities",
+      "The price of an IP address"
+    ],
+    "answerIndex": 0,
+    "explanation": "Latency measures the delay in transmitting data between points."
+  },
+  {
+    "category": "Networking",
+    "question": "Why use network segmentation?",
+    "options": [
+      "Limit traffic paths and reduce the impact of unauthorized access",
+      "Make every resource publicly accessible",
+      "Disable all network monitoring",
+      "Share credentials across applications"
+    ],
+    "answerIndex": 0,
+    "explanation": "Segmentation limits unnecessary communication between workload areas."
+  },
+  {
+    "category": "Networking",
+    "question": "What is the function of a NAT gateway?",
+    "options": [
+      "Allow private resources to initiate outbound internet connections without direct public addresses",
+      "Encrypt all database backups",
+      "Assign domain names to users",
+      "Balance incoming web requests across regions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Network address translation enables outbound connectivity while keeping private instances unaddressable from the internet."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is the principle of least privilege?",
+    "options": [
+      "Grant only the permissions needed to perform an assigned task",
+      "Give every user administrator access",
+      "Never revoke a permission",
+      "Use one shared account for the whole team"
+    ],
+    "answerIndex": 0,
+    "explanation": "Least privilege limits access to the minimum necessary scope and duration."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What does multi-factor authentication require?",
+    "options": [
+      "At least two different types of verification factor",
+      "Two copies of the same password",
+      "A password shared by two users",
+      "A new username for every session"
+    ],
+    "answerIndex": 0,
+    "explanation": "MFA combines distinct factors, such as something known and something possessed."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is role-based access control?",
+    "options": [
+      "Assigning permissions through roles associated with job functions",
+      "Allowing access based only on network speed",
+      "Giving every resource the same password",
+      "Encrypting data with a role name"
+    ],
+    "answerIndex": 0,
+    "explanation": "RBAC manages access by assigning users to roles with defined permissions."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is the purpose of single sign-on?",
+    "options": [
+      "Allow a user to authenticate once and access multiple authorized applications",
+      "Remove authentication from all applications",
+      "Share a password among all users",
+      "Automatically grant administrator privileges"
+    ],
+    "answerIndex": 0,
+    "explanation": "SSO provides a centralized sign-in experience for multiple applications."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is encryption at rest intended to protect?",
+    "options": [
+      "Stored data on disks, databases, or backups",
+      "Data while a user types a password",
+      "Only data traveling between networks",
+      "The availability of a power supply"
+    ],
+    "answerIndex": 0,
+    "explanation": "Encryption at rest helps protect stored data if storage media or snapshots are exposed."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is encryption in transit intended to protect?",
+    "options": [
+      "Data moving between endpoints over a network",
+      "Data on a powered-off disk only",
+      "An application's billing records",
+      "A server's cooling system"
+    ],
+    "answerIndex": 0,
+    "explanation": "Transport encryption protects data as it travels between communicating systems."
+  },
+  {
+    "category": "Identity and security",
+    "question": "Where should an application store API keys and database passwords?",
+    "options": [
+      "In a managed secrets store with controlled access",
+      "In source code committed to a public repository",
+      "In a URL query string",
+      "In a shared document with public access"
+    ],
+    "answerIndex": 0,
+    "explanation": "A secrets manager supports controlled storage, access, and rotation of credentials."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What does key rotation help accomplish?",
+    "options": [
+      "Limit the useful lifetime of a cryptographic key",
+      "Increase the number of public IP addresses",
+      "Make all users administrators",
+      "Remove the need to protect keys"
+    ],
+    "answerIndex": 0,
+    "explanation": "Periodic rotation reduces exposure if a key is compromised."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is the purpose of a security audit log?",
+    "options": [
+      "Record security-relevant actions for investigation and accountability",
+      "Replace backups",
+      "Speed up image downloads",
+      "Store application source code"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audit logs help reconstruct activity and support monitoring or compliance."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What does defense in depth mean?",
+    "options": [
+      "Use multiple complementary security controls",
+      "Depend on one perimeter firewall only",
+      "Remove security checks to improve speed",
+      "Store every key beside the data it encrypts"
+    ],
+    "answerIndex": 0,
+    "explanation": "Layered controls reduce reliance on any single security mechanism."
+  },
+  {
+    "category": "Compute",
+    "question": "What is a virtual machine?",
+    "options": [
+      "A software-based computer running on virtualized hardware",
+      "A physical network cable",
+      "A remote database table",
+      "An identity authentication factor"
+    ],
+    "answerIndex": 0,
+    "explanation": "A hypervisor presents virtual compute resources on a physical host."
+  },
+  {
+    "category": "Compute",
+    "question": "What is a container?",
+    "options": [
+      "An isolated process packaging an application and its dependencies",
+      "A physical server rack",
+      "A permanent database backup",
+      "A cloud billing subscription"
+    ],
+    "answerIndex": 0,
+    "explanation": "Containers package an application and dependencies while sharing the host operating-system kernel."
+  },
+  {
+    "category": "Compute",
+    "question": "Compared with a virtual machine, what is a common container characteristic?",
+    "options": [
+      "Containers usually share the host OS kernel",
+      "Containers always contain a separate physical server",
+      "Containers cannot be moved between hosts",
+      "Containers replace application code"
+    ],
+    "answerIndex": 0,
+    "explanation": "Containers isolate processes while commonly sharing the host operating-system kernel."
+  },
+  {
+    "category": "Compute",
+    "question": "What does a container orchestrator commonly manage?",
+    "options": [
+      "Container scheduling, scaling, and health",
+      "Customer tax filings",
+      "The physical construction of data centers",
+      "Manual password distribution"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orchestrators automate the deployment and lifecycle of containerized workloads."
+  },
+  {
+    "category": "Compute",
+    "question": "What is autoscaling?",
+    "options": [
+      "Automatically adjusting resource capacity according to defined signals or rules",
+      "Encrypting every resource automatically",
+      "Removing all workload replicas",
+      "Manually changing capacity once a year"
+    ],
+    "answerIndex": 0,
+    "explanation": "Autoscaling responds to demand or schedules by increasing or decreasing capacity."
+  },
+  {
+    "category": "Compute",
+    "question": "What is a useful reason to use a managed container service?",
+    "options": [
+      "Reduce the operational work of running the container platform",
+      "Avoid defining application health checks",
+      "Make workloads impossible to scale",
+      "Eliminate the need for container images"
+    ],
+    "answerIndex": 0,
+    "explanation": "A managed service can operate the underlying orchestration control plane."
+  },
+  {
+    "category": "Compute",
+    "question": "What is an image in a container workflow?",
+    "options": [
+      "A packaged, versioned template used to create containers",
+      "A live database connection",
+      "A network firewall policy",
+      "A snapshot of every cloud region"
+    ],
+    "answerIndex": 0,
+    "explanation": "Container images package the filesystem and metadata needed to run an application."
+  },
+  {
+    "category": "Compute",
+    "question": "Why use a readiness probe for an application instance?",
+    "options": [
+      "Determine whether it is ready to receive traffic",
+      "Choose its billing currency",
+      "Rotate encryption keys on a schedule",
+      "Replicate its source repository"
+    ],
+    "answerIndex": 0,
+    "explanation": "Readiness checks help prevent routing traffic to an instance that is not ready."
+  },
+  {
+    "category": "Compute",
+    "question": "What is a spot or preemptible compute instance generally suited for?",
+    "options": [
+      "Interruptible workloads that can tolerate capacity reclamation",
+      "A workload requiring a guarantee against interruption",
+      "A permanent physical server purchase",
+      "A database requiring synchronous writes on every request"
+    ],
+    "answerIndex": 0,
+    "explanation": "Discounted interruptible capacity suits fault-tolerant batch or flexible workloads."
+  },
+  {
+    "category": "Compute",
+    "question": "What is an availability zone?",
+    "options": [
+      "An isolated location within a cloud region with independent infrastructure",
+      "A user identity directory",
+      "A type of database index",
+      "A network port number"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zones provide separate failure domains within a region."
+  },
+  {
+    "category": "Storage and data",
+    "question": "Which storage type is best suited to large amounts of unstructured files such as images and backups?",
+    "options": [
+      "Object storage",
+      "CPU cache",
+      "A relational table only",
+      "A DNS zone"
+    ],
+    "answerIndex": 0,
+    "explanation": "Object storage is designed for scalable storage of unstructured data."
+  },
+  {
+    "category": "Storage and data",
+    "question": "Which storage type presents a mountable disk volume to a virtual machine?",
+    "options": [
+      "Block storage",
+      "Object storage",
+      "Message storage",
+      "DNS storage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Block storage provides disk-like volumes that an operating system can format and mount."
+  },
+  {
+    "category": "Storage and data",
+    "question": "Which storage type is commonly suited to shared folders accessed over a network?",
+    "options": [
+      "File storage",
+      "Block storage only",
+      "In-memory cache",
+      "Event streaming"
+    ],
+    "answerIndex": 0,
+    "explanation": "File storage exposes shared files and directories through file protocols."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a relational database best known for?",
+    "options": [
+      "Structured tables, relationships, and query languages such as SQL",
+      "Storing only unstructured video files",
+      "Routing packets across a network",
+      "Managing user authentication factors"
+    ],
+    "answerIndex": 0,
+    "explanation": "Relational databases organize structured data into related tables."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a common reason to select a NoSQL database?",
+    "options": [
+      "The data model or scale benefits from flexible non-relational structures",
+      "The application requires every query to use SQL joins",
+      "The workload has no data",
+      "The database must serve as a firewall"
+    ],
+    "answerIndex": 0,
+    "explanation": "NoSQL systems support models such as document, key-value, graph, or wide-column data."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What does database replication generally provide?",
+    "options": [
+      "Copies of data on multiple database instances",
+      "A way to avoid defining a data schema forever",
+      "Automatic classification of user identities",
+      "A substitute for network segmentation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Replicas can support availability, read scaling, or disaster recovery."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What does a database index primarily improve?",
+    "options": [
+      "Efficiency of selected data lookups",
+      "Physical data-center security",
+      "The number of users with administrator access",
+      "The size of an encryption key"
+    ],
+    "answerIndex": 0,
+    "explanation": "Indexes speed up reads for indexed query patterns, with storage and write costs."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a cache commonly used for?",
+    "options": [
+      "Keep frequently accessed data close to the application for faster reads",
+      "Replace the authoritative data store permanently",
+      "Record billing invoices",
+      "Assign IP addresses"
+    ],
+    "answerIndex": 0,
+    "explanation": "Caching can reduce latency and repeated load on an origin data store."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is data durability?",
+    "options": [
+      "The likelihood that stored data remains intact over time",
+      "The speed of a network response",
+      "The time to log in to an account",
+      "The number of compute cores"
+    ],
+    "answerIndex": 0,
+    "explanation": "Durability concerns preserving data against loss or corruption."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is the purpose of a data lifecycle policy?",
+    "options": [
+      "Automate data retention, transition, or deletion according to rules",
+      "Increase every resource's CPU capacity",
+      "Replace authorization for data access",
+      "Prevent backups from expiring"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lifecycle policies manage data as it ages, including retention and storage-tier changes."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What does a recovery point objective (RPO) specify?",
+    "options": [
+      "The maximum acceptable amount of data loss measured in time",
+      "The maximum acceptable time to restore a service",
+      "The percentage of requests served successfully",
+      "The number of zones in a region"
+    ],
+    "answerIndex": 0,
+    "explanation": "RPO defines how far back recovery may need to go, which implies tolerable data loss."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What does a recovery time objective (RTO) specify?",
+    "options": [
+      "The target maximum time to restore a service after disruption",
+      "The maximum age of the oldest backup",
+      "The number of database replicas",
+      "The duration of a user session"
+    ],
+    "answerIndex": 0,
+    "explanation": "RTO is the target time for restoring service after an incident."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "Why are backups important even when a database has replicas?",
+    "options": [
+      "Replication may copy accidental deletion or corruption to replicas",
+      "Replicas always prevent every kind of data loss",
+      "Backups are required to balance web traffic",
+      "Replication disables authentication"
+    ],
+    "answerIndex": 0,
+    "explanation": "Backups provide recoverable historical copies, unlike replicas that may mirror unwanted changes."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What is a disaster recovery plan?",
+    "options": [
+      "Documented procedures and resources for recovering from major disruption",
+      "A schedule of routine code formatting",
+      "A list of all employee passwords",
+      "A method for increasing website font size"
+    ],
+    "answerIndex": 0,
+    "explanation": "A DR plan defines how to restore critical workloads after a significant incident."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "Why should an organization test its disaster recovery plan?",
+    "options": [
+      "Confirm that people, procedures, and technology can meet recovery objectives",
+      "Guarantee that future incidents cannot occur",
+      "Avoid measuring recovery time",
+      "Make every backup publicly accessible"
+    ],
+    "answerIndex": 0,
+    "explanation": "Exercises reveal gaps and verify that recovery steps work in practice."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What is a hot standby recovery approach?",
+    "options": [
+      "A running secondary environment ready to take over quickly",
+      "A backup that is never tested",
+      "A paper list of IP addresses",
+      "A powered-off laptop used for daily development"
+    ],
+    "answerIndex": 0,
+    "explanation": "A hot standby keeps a secondary environment active for faster failover."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What is failover?",
+    "options": [
+      "Switching service to a healthy redundant component or location",
+      "Deleting a failed system's backups",
+      "Turning off monitoring during an outage",
+      "Increasing a password's length"
+    ],
+    "answerIndex": 0,
+    "explanation": "Failover transfers workload to an alternate resource when the primary is unavailable."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "What is a graceful degradation strategy?",
+    "options": [
+      "Preserve essential functionality while reducing optional features under stress",
+      "Shut down every service at the first error",
+      "Remove all redundancy to reduce complexity",
+      "Stop sending health signals"
+    ],
+    "answerIndex": 0,
+    "explanation": "Graceful degradation keeps core user journeys available when full capacity is unavailable."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "Why deploy critical components across multiple availability zones?",
+    "options": [
+      "Reduce the impact of a failure isolated to one zone",
+      "Guarantee protection from every regional disaster",
+      "Eliminate the need for application monitoring",
+      "Ensure every request has zero latency"
+    ],
+    "answerIndex": 0,
+    "explanation": "Multiple zones provide redundancy across distinct failure domains in a region."
+  },
+  {
+    "category": "Resilience and recovery",
+    "question": "Which approach helps protect against a region-wide cloud disruption?",
+    "options": [
+      "A tested recovery deployment in a separate region",
+      "Two instances in the same rack only",
+      "A larger local cache",
+      "A second user account in the same region"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cross-region recovery can address failures affecting an entire region."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is the primary purpose of application monitoring?",
+    "options": [
+      "Observe system behavior and detect operational issues",
+      "Replace all application tests",
+      "Increase access for all users",
+      "Avoid recording service health"
+    ],
+    "answerIndex": 0,
+    "explanation": "Monitoring provides information about performance, availability, and failures."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is a metric?",
+    "options": [
+      "A numeric measurement tracked over time",
+      "A user's authorization role",
+      "A storage encryption key",
+      "A physical data-center boundary"
+    ],
+    "answerIndex": 0,
+    "explanation": "Metrics are quantitative observations such as request rate, latency, or CPU usage."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is a distributed trace useful for?",
+    "options": [
+      "Following a request across multiple services",
+      "Encrypting a backup archive",
+      "Selecting a cloud billing plan",
+      "Assigning subnets to a database"
+    ],
+    "answerIndex": 0,
+    "explanation": "Distributed tracing links spans across services to show a request's path and timing."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What do application logs typically capture?",
+    "options": [
+      "Timestamped events and diagnostic details",
+      "Only the total number of CPU cores",
+      "The physical location of every user",
+      "A permanent replacement for a database"
+    ],
+    "answerIndex": 0,
+    "explanation": "Logs record discrete application and system events useful for troubleshooting."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is an alert in an observability system?",
+    "options": [
+      "A notification triggered when a defined condition is met",
+      "A type of data replication",
+      "A cloud service billing unit",
+      "A method for encrypting network packets"
+    ],
+    "answerIndex": 0,
+    "explanation": "Alerts notify responders when monitored signals cross configured conditions."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is an SLI?",
+    "options": [
+      "A quantitative indicator of a service's reliability or performance",
+      "A cloud invoice line item",
+      "A network encryption protocol",
+      "A storage replication region"
+    ],
+    "answerIndex": 0,
+    "explanation": "A service-level indicator measures an aspect of service behavior, such as successful-request rate."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is an SLO?",
+    "options": [
+      "A target value or range for a service-level indicator",
+      "A customer support ticket",
+      "A type of virtual machine image",
+      "A data-retention policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "A service-level objective sets the desired target for an SLI over a defined period."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What does an error budget represent?",
+    "options": [
+      "The tolerated unreliability implied by an SLO",
+      "The monthly cloud spending cap",
+      "The number of errors a compiler can ignore",
+      "A reserve of encrypted backups"
+    ],
+    "answerIndex": 0,
+    "explanation": "An error budget quantifies how much service unreliability is consistent with an SLO."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "Why use infrastructure as code?",
+    "options": [
+      "Provision and manage infrastructure through repeatable, versioned definitions",
+      "Replace source control for application code",
+      "Manually configure every server once",
+      "Disable resource monitoring"
+    ],
+    "answerIndex": 0,
+    "explanation": "Infrastructure as code makes changes reviewable, repeatable, and automatable."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is configuration drift?",
+    "options": [
+      "A difference between intended configuration and the actual deployed state",
+      "A network delay between two regions",
+      "A backup stored in another format",
+      "A user switching devices"
+    ],
+    "answerIndex": 0,
+    "explanation": "Drift occurs when deployed resources diverge from their approved configuration."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What does continuous integration (CI) commonly automate?",
+    "options": [
+      "Frequent code integration with automated build and test checks",
+      "Manual data-center construction",
+      "User access approvals only",
+      "Long-term archive deletion"
+    ],
+    "answerIndex": 0,
+    "explanation": "CI validates code changes frequently through repeatable automated checks."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What does continuous delivery aim to provide?",
+    "options": [
+      "A tested change that is ready for release through a repeatable process",
+      "An automatic guarantee that every change is defect-free",
+      "A requirement to deploy directly to production from a laptop",
+      "A replacement for source control"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous delivery keeps software in a deployable state using automated validation."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is a deployment pipeline?",
+    "options": [
+      "Automated stages that build, test, and deliver software",
+      "A physical cable between data centers",
+      "A database backup retention period",
+      "A list of cloud resource tags"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pipelines standardize software delivery steps from source change to deployment."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is a canary deployment?",
+    "options": [
+      "Release a change to a small portion of users before a wider rollout",
+      "Replace all instances at once without monitoring",
+      "Deploy only to disconnected devices",
+      "Run a database backup without testing it"
+    ],
+    "answerIndex": 0,
+    "explanation": "A canary limits initial exposure and allows teams to observe a change before expanding it."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is a blue-green deployment?",
+    "options": [
+      "Maintain two environments and switch traffic to the updated one",
+      "Deploy code without any rollback option",
+      "Use two colors to encrypt a database",
+      "Run only one production instance at all times"
+    ],
+    "answerIndex": 0,
+    "explanation": "Blue-green deployments enable controlled traffic switching between old and new environments."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "Why automate repeatable infrastructure changes?",
+    "options": [
+      "Reduce manual errors and make deployments consistent",
+      "Make every change impossible to review",
+      "Avoid recording configuration",
+      "Guarantee zero operating cost"
+    ],
+    "answerIndex": 0,
+    "explanation": "Automation helps apply consistent, repeatable changes across environments."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is a rollback?",
+    "options": [
+      "Return a deployment to a previous known-good version",
+      "Increase capacity in every region",
+      "Delete all deployment records",
+      "Copy an application log to a database"
+    ],
+    "answerIndex": 0,
+    "explanation": "A rollback restores an earlier version when a new release causes problems."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is immutable infrastructure?",
+    "options": [
+      "Replace deployed instances with newly built ones instead of modifying them in place",
+      "Infrastructure that can never be deleted",
+      "A network without security rules",
+      "A database that rejects all updates"
+    ],
+    "answerIndex": 0,
+    "explanation": "Immutable deployments replace resources to reduce configuration drift."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "Why keep infrastructure definitions in version control?",
+    "options": [
+      "Review changes, track history, and collaborate on infrastructure",
+      "Make credentials safe to publish in plain text",
+      "Prevent automated testing",
+      "Remove the need for access controls"
+    ],
+    "answerIndex": 0,
+    "explanation": "Version control records who changed infrastructure definitions and enables review."
+  },
+  {
+    "category": "Delivery and automation",
+    "question": "What is a deployment health check used for?",
+    "options": [
+      "Verify that a deployed service is functioning before or after traffic is shifted",
+      "Set customer billing addresses",
+      "Encrypt a source-code repository",
+      "Choose a data classification label"
+    ],
+    "answerIndex": 0,
+    "explanation": "Health checks help detect failed deployments and guide safe traffic management."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What is a common cloud cost-optimization practice?",
+    "options": [
+      "Right-size resources based on observed demand",
+      "Leave unused resources running indefinitely",
+      "Provision peak capacity for every workload",
+      "Disable all cost reporting"
+    ],
+    "answerIndex": 0,
+    "explanation": "Right-sizing aligns provisioned capacity with actual workload needs."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What does cloud resource tagging help an organization do?",
+    "options": [
+      "Organize resources for ownership, allocation, and reporting",
+      "Automatically encrypt all customer data",
+      "Guarantee application availability",
+      "Replace network access controls"
+    ],
+    "answerIndex": 0,
+    "explanation": "Consistent tags support inventory, ownership, cost allocation, and governance."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "Why set a cloud budget alert?",
+    "options": [
+      "Notify owners when spending approaches a defined threshold",
+      "Prevent every resource from ever being created",
+      "Automatically make an application more secure",
+      "Guarantee an exact final invoice"
+    ],
+    "answerIndex": 0,
+    "explanation": "Budget alerts improve visibility when costs reach selected thresholds."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What is cost allocation?",
+    "options": [
+      "Attribute cloud spending to teams, products, or projects",
+      "Distribute network requests across servers",
+      "Copy a database to a second region",
+      "Assign security roles to a user"
+    ],
+    "answerIndex": 0,
+    "explanation": "Allocation gives teams visibility into the costs associated with their resources."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What is a cloud governance policy used for?",
+    "options": [
+      "Define and enforce rules for resource use",
+      "Replace an application's user interface",
+      "Increase all storage performance",
+      "Guarantee that a system has no bugs"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governance policies help keep cloud usage aligned with organizational standards."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What is a benefit of deleting unused cloud resources?",
+    "options": [
+      "Avoid ongoing charges for resources that provide no value",
+      "Increase the number of backups automatically",
+      "Guarantee compliance with every regulation",
+      "Eliminate the need for access review"
+    ],
+    "answerIndex": 0,
+    "explanation": "Unused resources can continue to incur charges and should be identified and retired."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "Which cost model is generally associated with pay-as-you-go cloud services?",
+    "options": [
+      "Pay for measured consumption without purchasing all capacity up front",
+      "Pay only for hardware shipping",
+      "Purchase a fixed server fleet before any use",
+      "Pay the same amount regardless of usage by definition"
+    ],
+    "answerIndex": 0,
+    "explanation": "Consumption-based pricing ties cost to measured resource use."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What is a cloud service quota?",
+    "options": [
+      "A limit on how many resources or operations an account can use",
+      "A type of encryption algorithm",
+      "A database recovery target",
+      "A guarantee of unlimited capacity"
+    ],
+    "answerIndex": 0,
+    "explanation": "Quotas constrain resource consumption and help protect service capacity."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "Why should an organization review cloud access permissions periodically?",
+    "options": [
+      "Remove access that is no longer needed and reduce risk",
+      "Increase the number of public endpoints",
+      "Avoid using identity management",
+      "Make every account permanent"
+    ],
+    "answerIndex": 0,
+    "explanation": "Periodic access reviews help ensure permissions remain appropriate."
+  },
+  {
+    "category": "Cost and governance",
+    "question": "What does data residency refer to?",
+    "options": [
+      "The geographic location where data is stored or processed",
+      "The time a database query takes",
+      "A user's role in an application",
+      "The number of stored backups"
+    ],
+    "answerIndex": 0,
+    "explanation": "Residency requirements concern the locations in which data is kept or handled."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What is the first useful step in planning a cloud migration?",
+    "options": [
+      "Assess workloads, dependencies, requirements, and goals",
+      "Move every workload without inventory",
+      "Delete on-premises backups",
+      "Disable application monitoring"
+    ],
+    "answerIndex": 0,
+    "explanation": "Assessment establishes scope, constraints, and a reasoned migration approach."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What does a lift-and-shift migration usually mean?",
+    "options": [
+      "Move a workload with minimal application changes",
+      "Rewrite an application entirely as microservices",
+      "Replace a database with a spreadsheet",
+      "Move only user identities and no workloads"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lift-and-shift relocates a workload largely as-is, often to reduce migration effort."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What does refactoring a workload for cloud typically involve?",
+    "options": [
+      "Changing its design or code to better use cloud capabilities",
+      "Moving it without changing anything",
+      "Turning off automated testing",
+      "Replacing all data with sample data"
+    ],
+    "answerIndex": 0,
+    "explanation": "Refactoring modifies an application to improve cloud-native characteristics."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What is a migration dependency map useful for?",
+    "options": [
+      "Identify which systems rely on one another and plan migration order",
+      "Calculate a user's password strength",
+      "Replace cloud cost estimates",
+      "Choose a color for a dashboard"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dependency mapping reduces the chance of moving a component before its prerequisites."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "Why run a proof of concept before a large migration?",
+    "options": [
+      "Validate assumptions, technical feasibility, and risks on a limited scope",
+      "Guarantee that no future testing is required",
+      "Move all production data without approval",
+      "Avoid documenting requirements"
+    ],
+    "answerIndex": 0,
+    "explanation": "A small proof of concept tests key uncertainties before committing to a wider effort."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What does data egress mean in cloud pricing?",
+    "options": [
+      "Data transferred out of a cloud service or region",
+      "Data encrypted before it is stored",
+      "A user logging into an application",
+      "Data copied from one table to another"
+    ],
+    "answerIndex": 0,
+    "explanation": "Egress commonly refers to outbound data transfer and may incur charges."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What is a common challenge when migrating a legacy application?",
+    "options": [
+      "Undocumented dependencies and assumptions",
+      "Having too many automated tests",
+      "Every application using the same architecture",
+      "An inability to measure costs"
+    ],
+    "answerIndex": 0,
+    "explanation": "Legacy applications may depend on undocumented systems, protocols, or configuration."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What does the retire strategy mean in workload migration planning?",
+    "options": [
+      "Decommission a workload that is no longer needed",
+      "Move a workload without changes",
+      "Rebuild a workload using a new architecture",
+      "Keep an unused workload running forever"
+    ],
+    "answerIndex": 0,
+    "explanation": "Retiring an obsolete workload can remove maintenance and hosting costs."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "What does the retain strategy mean in workload migration planning?",
+    "options": [
+      "Keep a workload in its current environment for now",
+      "Delete all of a workload's records",
+      "Rewrite every application as a function",
+      "Move an application to a new region immediately"
+    ],
+    "answerIndex": 0,
+    "explanation": "Some workloads remain on existing infrastructure because of constraints or timing."
+  },
+  {
+    "category": "Migration and modernization",
+    "question": "Why migrate workloads in manageable waves?",
+    "options": [
+      "Reduce risk and learn from earlier migrations",
+      "Ensure every dependency is moved at once",
+      "Remove the need for rollback planning",
+      "Prevent teams from measuring outcomes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Phased waves limit blast radius and allow teams to improve the migration approach."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is a message queue commonly used for?",
+    "options": [
+      "Decouple producers and consumers through asynchronous communication",
+      "Store virtual machine operating systems",
+      "Route public DNS requests",
+      "Replace every relational database"
+    ],
+    "answerIndex": 0,
+    "explanation": "Queues buffer messages and let components process work independently."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is event-driven architecture?",
+    "options": [
+      "Components communicate or react to events that represent state changes",
+      "All components poll a shared spreadsheet",
+      "Applications are deployed without network access",
+      "A database stores only user passwords"
+    ],
+    "answerIndex": 0,
+    "explanation": "Event-driven systems react to events, often asynchronously, to coordinate components."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is the main purpose of an API gateway?",
+    "options": [
+      "Provide a managed entry point for routing and governing API requests",
+      "Act as a long-term object archive",
+      "Replace identity verification",
+      "Run virtual machine backups"
+    ],
+    "answerIndex": 0,
+    "explanation": "An API gateway can centralize routing, authentication integration, throttling, and other API concerns."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What does asynchronous communication allow?",
+    "options": [
+      "The sender and receiver can process work at different times",
+      "Every caller must wait for a response before doing anything",
+      "Applications to communicate without exchanging data",
+      "A database to operate without storage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Asynchronous patterns reduce direct timing dependencies between components."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is idempotency in API or message processing?",
+    "options": [
+      "Repeating the same operation has no additional unintended effect",
+      "An operation must always fail on retry",
+      "Every request uses a different identity",
+      "A message is encrypted twice"
+    ],
+    "answerIndex": 0,
+    "explanation": "Idempotency helps make retries safe when delivery or responses are uncertain."
+  },
+  {
+    "category": "Data and integration",
+    "question": "Why might an application use a dead-letter queue?",
+    "options": [
+      "Isolate messages that repeatedly fail processing for later inspection",
+      "Store successful user logins forever",
+      "Increase network bandwidth",
+      "Replace the primary application database"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dead-letter queues retain unprocessable messages without blocking normal work."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is eventual consistency?",
+    "options": [
+      "Replicas may temporarily differ but converge if updates stop",
+      "Every read is guaranteed to see the latest write immediately",
+      "Data is never replicated",
+      "A backup is always consistent with future writes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Eventual consistency permits temporary replica lag before convergence."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is a data warehouse primarily designed for?",
+    "options": [
+      "Analytics and queries across integrated historical data",
+      "Running a desktop operating system",
+      "Routing application network traffic",
+      "Storing only short-lived sessions"
+    ],
+    "answerIndex": 0,
+    "explanation": "A data warehouse supports analytical queries over structured, often historical, data."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What does ETL stand for in data processing?",
+    "options": [
+      "Extract, transform, load",
+      "Encrypt, transfer, locate",
+      "Evaluate, test, launch",
+      "Expand, tag, limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "ETL extracts data, transforms it, and loads it into a target system."
+  },
+  {
+    "category": "Data and integration",
+    "question": "What is a data lake commonly used for?",
+    "options": [
+      "Store large volumes of data in varied formats for later processing",
+      "Serve as a network firewall",
+      "Replace all identity providers",
+      "Host only relational database indexes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Data lakes can store raw structured, semi-structured, and unstructured data."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is a zero-trust security approach based on?",
+    "options": [
+      "Continuously verify access rather than trust based only on network location",
+      "Trust every request from an internal network",
+      "Disable authentication between services",
+      "Use one perimeter firewall as the only control"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zero trust evaluates identity, context, and policy for each access request."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is a managed identity or workload identity useful for?",
+    "options": [
+      "Let software authenticate to services without embedding long-lived credentials",
+      "Give all employees the same account",
+      "Encrypt a network without keys",
+      "Replace application authorization rules"
+    ],
+    "answerIndex": 0,
+    "explanation": "Workload identities let applications obtain credentials through a managed identity mechanism."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is vulnerability management?",
+    "options": [
+      "Identify, prioritize, and remediate security weaknesses",
+      "Allocate cloud spending to teams",
+      "Automatically duplicate data across regions",
+      "Design user interface layouts"
+    ],
+    "answerIndex": 0,
+    "explanation": "A vulnerability program tracks weaknesses through discovery, prioritization, and remediation."
+  },
+  {
+    "category": "Cloud security",
+    "question": "Why promptly apply security patches to supported systems?",
+    "options": [
+      "Reduce exposure to known vulnerabilities",
+      "Guarantee that software has no defects",
+      "Remove the need for backups",
+      "Ensure every user has administrative access"
+    ],
+    "answerIndex": 0,
+    "explanation": "Patching addresses known software weaknesses that attackers may exploit."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is data classification?",
+    "options": [
+      "Categorize information by sensitivity or handling requirements",
+      "Choose the data center's server size",
+      "Rank users by network speed",
+      "Assign an IP address to each file"
+    ],
+    "answerIndex": 0,
+    "explanation": "Classification informs appropriate controls for different kinds of information."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What does data masking do?",
+    "options": [
+      "Obscure sensitive values while retaining useful data characteristics",
+      "Create a public copy of every database",
+      "Increase a file's storage tier",
+      "Replace backups with logs"
+    ],
+    "answerIndex": 0,
+    "explanation": "Masking hides or substitutes sensitive fields in contexts such as testing."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is tokenization?",
+    "options": [
+      "Replace a sensitive value with a token that maps to the original in a protected system",
+      "Compress a file into a smaller format",
+      "Assign a network port to a service",
+      "Replicate a database across zones"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tokenization substitutes tokens for sensitive values while controlling access to the mapping."
+  },
+  {
+    "category": "Cloud security",
+    "question": "Why restrict public access to object storage by default?",
+    "options": [
+      "Reduce the risk of accidental data exposure",
+      "Make object retrieval faster for every user",
+      "Ensure objects cannot be backed up",
+      "Replace encryption at rest"
+    ],
+    "answerIndex": 0,
+    "explanation": "Default-deny access prevents unintended exposure until access is explicitly needed."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is a security incident response plan for?",
+    "options": [
+      "Define roles and actions for detecting, containing, and recovering from incidents",
+      "Schedule ordinary application releases",
+      "Allocate monthly cloud budgets",
+      "Replace routine vulnerability scanning"
+    ],
+    "answerIndex": 0,
+    "explanation": "An incident response plan coordinates investigation, containment, communication, and recovery."
+  },
+  {
+    "category": "Cloud security",
+    "question": "What is the benefit of centralizing security logs?",
+    "options": [
+      "Correlate activity across systems and support investigation",
+      "Ensure logs can never be altered",
+      "Eliminate the need for access control",
+      "Prevent all service outages"
+    ],
+    "answerIndex": 0,
+    "explanation": "Centralized logs make cross-system monitoring and investigations more effective."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a workload in cloud architecture?",
+    "options": [
+      "A set of resources and processes that deliver a business capability",
+      "Only one physical hard drive",
+      "A billing currency",
+      "A network protocol for domain names"
+    ],
+    "answerIndex": 0,
+    "explanation": "A workload is an application or collection of components supporting a business task."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a landing zone?",
+    "options": [
+      "A governed cloud foundation for deploying workloads",
+      "A temporary cache for web images",
+      "A user sign-in page",
+      "A database's backup schedule"
+    ],
+    "answerIndex": 0,
+    "explanation": "A landing zone provides foundational identity, networking, governance, and operations capabilities."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "Why separate development, test, and production environments?",
+    "options": [
+      "Isolate changes and reduce the chance that testing disrupts live users",
+      "Ensure test data is always public",
+      "Prevent any reuse of automation",
+      "Make deployments impossible to compare"
+    ],
+    "answerIndex": 0,
+    "explanation": "Environment separation reduces risk and supports controlled change promotion."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a cloud region?",
+    "options": [
+      "A geographic area containing one or more cloud data-center locations",
+      "A user access role",
+      "A storage protocol",
+      "A software release stage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Regions represent geographic areas in which providers offer cloud services."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What does a service-level agreement (SLA) generally describe?",
+    "options": [
+      "A provider's defined service commitments and related terms",
+      "An application's source-code style",
+      "A user's assigned network address",
+      "A guaranteed absence of all failures"
+    ],
+    "answerIndex": 0,
+    "explanation": "An SLA documents specific service commitments, measurement, and remedies or terms."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "Why review a cloud service's SLA and architecture together?",
+    "options": [
+      "Understand service commitments and design for requirements beyond them",
+      "Assume an SLA prevents every outage",
+      "Avoid planning application redundancy",
+      "Replace workload testing"
+    ],
+    "answerIndex": 0,
+    "explanation": "Provider commitments do not replace workload-specific resilience design."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a trade-off in architecture design?",
+    "options": [
+      "A choice that improves one quality while potentially affecting another",
+      "A guarantee that every quality improves at once",
+      "A type of cloud database",
+      "A method for avoiding stakeholder input"
+    ],
+    "answerIndex": 0,
+    "explanation": "Architecture decisions balance competing needs such as cost, performance, and reliability."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "Why should an architect document important design decisions?",
+    "options": [
+      "Preserve context, rationale, and consequences for future teams",
+      "Prevent a design from ever changing",
+      "Replace operational runbooks",
+      "Guarantee that stakeholders always agree"
+    ],
+    "answerIndex": 0,
+    "explanation": "Decision records make assumptions and trade-offs understandable over time."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a reference architecture?",
+    "options": [
+      "A reusable, high-level design pattern for a class of solutions",
+      "An automatically deployed finished application",
+      "A record of a single login",
+      "A cloud billing statement"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reference architectures provide reusable guidance, not a substitute for workload-specific design."
+  },
+  {
+    "category": "Architecture and design",
+    "question": "What is a blast radius in system design?",
+    "options": [
+      "The scope of impact when a component or change fails",
+      "The physical radius of a data center",
+      "A measure of database query speed",
+      "The distance a user travels to log in"
+    ],
+    "answerIndex": 0,
+    "explanation": "Designing smaller failure domains limits how much of a system an incident affects."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is throughput?",
+    "options": [
+      "The amount of work completed per unit of time",
+      "The time taken for one request",
+      "The number of user passwords",
+      "The duration of data retention"
+    ],
+    "answerIndex": 0,
+    "explanation": "Throughput measures work or data processed over a period."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What does request latency measure?",
+    "options": [
+      "The elapsed time to complete a request",
+      "The total requests per second",
+      "The amount of stored data",
+      "The number of application regions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Latency measures how long a request takes from a defined start to completion."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is a performance bottleneck?",
+    "options": [
+      "A constrained component limiting overall system performance",
+      "A redundant backup copy",
+      "A type of cloud access policy",
+      "A user's browser bookmark"
+    ],
+    "answerIndex": 0,
+    "explanation": "A bottleneck limits throughput or increases latency for the wider system."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "Why perform load testing before a major launch?",
+    "options": [
+      "Measure behavior under expected or elevated traffic",
+      "Prove that no failure is possible",
+      "Replace production monitoring",
+      "Remove the need for capacity planning"
+    ],
+    "answerIndex": 0,
+    "explanation": "Load tests help reveal capacity limits and performance issues before real demand arrives."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What does backpressure help a system do?",
+    "options": [
+      "Signal producers to slow down when consumers cannot keep up",
+      "Increase data loss during retries",
+      "Expose private subnets to the internet",
+      "Disable application health checks"
+    ],
+    "answerIndex": 0,
+    "explanation": "Backpressure controls work entering a constrained system and helps prevent overload."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is rate limiting used for?",
+    "options": [
+      "Restrict the number of requests allowed in a time period",
+      "Encrypt application backups",
+      "Increase database retention",
+      "Assign an identity to a service"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rate limits protect services from excessive or abusive request rates."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is a common purpose of a read replica?",
+    "options": [
+      "Offload read queries from a primary database",
+      "Replace backups for accidental deletion",
+      "Guarantee synchronous writes in every region",
+      "Authenticate database clients"
+    ],
+    "answerIndex": 0,
+    "explanation": "Read replicas can scale read-heavy workloads, subject to replication lag and consistency needs."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is a common risk when increasing a cache's lifetime?",
+    "options": [
+      "Users may receive stale data for longer",
+      "Every cache entry becomes encrypted automatically",
+      "The database becomes impossible to update",
+      "Network latency is guaranteed to increase"
+    ],
+    "answerIndex": 0,
+    "explanation": "Longer time-to-live values may improve cache hits but can serve outdated values."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What does a content cache at the edge help reduce?",
+    "options": [
+      "Distance to users and repeated requests to an origin",
+      "Identity verification strength",
+      "The need to classify data",
+      "The number of software tests"
+    ],
+    "answerIndex": 0,
+    "explanation": "Edge caching serves reusable content nearer to users and reduces origin traffic."
+  },
+  {
+    "category": "Performance and scalability",
+    "question": "What is capacity planning?",
+    "options": [
+      "Estimate resources needed to meet current and future workload demand",
+      "Assign users to database tables",
+      "Choose an encryption algorithm at random",
+      "Disable scale-out before a peak"
+    ],
+    "answerIndex": 0,
+    "explanation": "Capacity planning uses workload trends and requirements to prepare adequate resources."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a transactional database transaction intended to provide?",
+    "options": [
+      "A group of operations handled as a consistent unit",
+      "A guarantee that every query is free",
+      "A way to route network traffic",
+      "An automatic copy of data to every region"
+    ],
+    "answerIndex": 0,
+    "explanation": "Transactions help preserve defined consistency rules across related operations."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What does ACID stand for in database transactions?",
+    "options": [
+      "Atomicity, consistency, isolation, durability",
+      "Availability, cache, identity, delivery",
+      "Access, control, integration, distribution",
+      "Authentication, compression, indexing, deletion"
+    ],
+    "answerIndex": 0,
+    "explanation": "ACID describes common transaction guarantees in relational database systems."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a database schema?",
+    "options": [
+      "The defined structure and organization of a database",
+      "A network address translation rule",
+      "An application alert threshold",
+      "A cloud region's physical boundary"
+    ],
+    "answerIndex": 0,
+    "explanation": "A schema describes structures such as tables, fields, and relationships."
+  },
+  {
+    "category": "Storage and data",
+    "question": "Why encrypt backups?",
+    "options": [
+      "Protect backup data if the backup media or files are exposed",
+      "Ensure backups are always current",
+      "Prevent authorized recovery",
+      "Replace the need to restrict backup access"
+    ],
+    "answerIndex": 0,
+    "explanation": "Encryption protects confidentiality; access control and recovery testing remain important."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is the 3-2-1 backup principle commonly intended to encourage?",
+    "options": [
+      "Multiple copies on different media, with one copy off-site",
+      "Three passwords for two accounts",
+      "Three database tables and two indexes",
+      "One backup that is overwritten every day"
+    ],
+    "answerIndex": 0,
+    "explanation": "The principle diversifies copies and locations to reduce correlated loss."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a point-in-time recovery capability?",
+    "options": [
+      "Restore data to a selected time within a retained recovery window",
+      "Recover only the latest unverified write",
+      "Replicate every change to a public endpoint",
+      "Restore a virtual network's DNS settings only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Point-in-time recovery uses retained transaction history or snapshots to restore an earlier state."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a storage tiering strategy?",
+    "options": [
+      "Place data in storage classes based on access patterns and needs",
+      "Give storage accounts more administrator roles",
+      "Move compute instances between subnets",
+      "Convert every object into a database row"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tiering balances storage cost and retrieval characteristics for different data."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is the trade-off of archival storage?",
+    "options": [
+      "Lower storage cost may come with slower or costlier retrieval",
+      "It always provides the lowest latency",
+      "It cannot hold historical data",
+      "It removes data retention obligations"
+    ],
+    "answerIndex": 0,
+    "explanation": "Archive tiers are economical for infrequently accessed data but retrieval may take longer."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What does data replication lag describe?",
+    "options": [
+      "The delay before a replica reflects a change made to its source",
+      "The time needed to encrypt an object",
+      "The duration of a cloud contract",
+      "The number of failed user logins"
+    ],
+    "answerIndex": 0,
+    "explanation": "Replication lag means a replica may temporarily show an older state."
+  },
+  {
+    "category": "Storage and data",
+    "question": "What is a data retention policy?",
+    "options": [
+      "Rules for how long data is kept and when it is deleted",
+      "A method to distribute incoming requests",
+      "A cloud account's password policy",
+      "A way to provision more CPU cores"
+    ],
+    "answerIndex": 0,
+    "explanation": "Retention policies align data storage duration with legal and business requirements."
+  },
+  {
+    "category": "Networking",
+    "question": "What does ingress traffic mean?",
+    "options": [
+      "Traffic entering a resource or network boundary",
+      "Traffic leaving a resource or network boundary",
+      "Data stored in an archive",
+      "Requests processed by a database index"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ingress refers to incoming traffic relative to a defined boundary."
+  },
+  {
+    "category": "Networking",
+    "question": "What does egress traffic mean?",
+    "options": [
+      "Traffic leaving a resource or network boundary",
+      "Traffic entering a resource or network boundary",
+      "An identity synchronization task",
+      "A scheduled backup"
+    ],
+    "answerIndex": 0,
+    "explanation": "Egress refers to outgoing traffic relative to a defined boundary."
+  },
+  {
+    "category": "Networking",
+    "question": "What is a private endpoint commonly used for?",
+    "options": [
+      "Access a service through a private network address",
+      "Make a service reachable from every public network",
+      "Replace a database password",
+      "Increase a CPU's clock rate"
+    ],
+    "answerIndex": 0,
+    "explanation": "Private endpoints expose services through private connectivity rather than a public route."
+  },
+  {
+    "category": "Networking",
+    "question": "What is a route table used for?",
+    "options": [
+      "Determine where network packets are forwarded",
+      "Store application audit logs",
+      "Assign roles to user accounts",
+      "Set a database's retention period"
+    ],
+    "answerIndex": 0,
+    "explanation": "Routing tables define next hops for traffic to destination address ranges."
+  },
+  {
+    "category": "Networking",
+    "question": "What is a reverse proxy?",
+    "options": [
+      "A server that receives requests on behalf of back-end servers",
+      "A client-side backup utility",
+      "A database consistency model",
+      "A type of encryption key"
+    ],
+    "answerIndex": 0,
+    "explanation": "A reverse proxy can route, secure, or balance client requests to back-end services."
+  },
+  {
+    "category": "Networking",
+    "question": "Why use TLS for a web application?",
+    "options": [
+      "Encrypt traffic and help authenticate the server endpoint",
+      "Compress every stored database",
+      "Guarantee that application code has no vulnerabilities",
+      "Replace user authorization"
+    ],
+    "answerIndex": 0,
+    "explanation": "TLS protects communications in transit and supports server identity verification."
+  },
+  {
+    "category": "Networking",
+    "question": "What does a web application firewall help protect?",
+    "options": [
+      "Web applications by filtering HTTP requests against defined rules",
+      "The physical power supply of a data center",
+      "An application's source code from all defects",
+      "Object storage from every possible access"
+    ],
+    "answerIndex": 0,
+    "explanation": "A WAF inspects web traffic and can mitigate common application-layer attacks."
+  },
+  {
+    "category": "Networking",
+    "question": "What is an IP address used for?",
+    "options": [
+      "Identify a network interface for routing IP traffic",
+      "Encrypt a file at rest",
+      "Describe a user's business role",
+      "Measure a service-level objective"
+    ],
+    "answerIndex": 0,
+    "explanation": "IP addresses identify interfaces and support packet delivery across IP networks."
+  },
+  {
+    "category": "Networking",
+    "question": "Why reserve private address ranges for internal resources?",
+    "options": [
+      "Use addresses that are not directly routable on the public internet",
+      "Make private resources impossible to monitor",
+      "Eliminate the need for routing",
+      "Ensure every subnet has the same address"
+    ],
+    "answerIndex": 0,
+    "explanation": "Private address ranges support internal networks without consuming public address space."
+  },
+  {
+    "category": "Networking",
+    "question": "What does peering two virtual networks generally provide?",
+    "options": [
+      "Private IP connectivity between the networks",
+      "Automatic identity federation for every user",
+      "A shared encryption key for all applications",
+      "A replacement for subnet planning"
+    ],
+    "answerIndex": 0,
+    "explanation": "Network peering connects address spaces over a provider network, subject to routing and security configuration."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is federation in identity management?",
+    "options": [
+      "Allowing identities from one trusted system to access another system",
+      "Combining several passwords into one string",
+      "Replicating a storage volume",
+      "Distributing requests among servers"
+    ],
+    "answerIndex": 0,
+    "explanation": "Federation establishes trust between identity providers and relying applications."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is authorization?",
+    "options": [
+      "Determining what an authenticated identity is allowed to do",
+      "Proving an identity's credentials",
+      "Encrypting data in transit",
+      "Recording a server's CPU utilization"
+    ],
+    "answerIndex": 0,
+    "explanation": "Authorization evaluates permissions after or alongside identity authentication."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is authentication?",
+    "options": [
+      "Verifying the identity of a user or service",
+      "Choosing which database records to delete",
+      "Measuring network throughput",
+      "Granting every user all permissions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Authentication checks evidence that an entity is who or what it claims to be."
+  },
+  {
+    "category": "Identity and security",
+    "question": "Why use short-lived credentials for workloads when possible?",
+    "options": [
+      "Reduce the time stolen credentials remain useful",
+      "Avoid all identity checks",
+      "Make secrets easier to commit to source",
+      "Give credentials permanent administrator access"
+    ],
+    "answerIndex": 0,
+    "explanation": "Short-lived credentials limit exposure and reduce reliance on long-lived secrets."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What does separation of duties help prevent?",
+    "options": [
+      "One person having unchecked control over a sensitive process",
+      "All application components communicating",
+      "Use of encryption keys",
+      "Monitoring of administrative actions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dividing critical tasks reduces the risk of misuse or undetected error."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is a security group or network access rule set used for?",
+    "options": [
+      "Control allowed network connections to associated resources",
+      "Assign business owners to cloud invoices",
+      "Store an application's source code",
+      "Perform point-in-time database recovery"
+    ],
+    "answerIndex": 0,
+    "explanation": "Network security rules permit or deny traffic to or from resource interfaces."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is a penetration test intended to assess?",
+    "options": [
+      "Whether authorized simulated attacks can exploit weaknesses",
+      "Whether a service meets a spending budget",
+      "Whether backups have enough storage",
+      "How many users prefer an interface color"
+    ],
+    "answerIndex": 0,
+    "explanation": "Authorized penetration testing evaluates security controls by attempting realistic exploitation."
+  },
+  {
+    "category": "Identity and security",
+    "question": "Why sanitize untrusted input in an application?",
+    "options": [
+      "Reduce risks such as injection or malformed input handling",
+      "Make all users trusted automatically",
+      "Replace transport encryption",
+      "Improve cloud region availability"
+    ],
+    "answerIndex": 0,
+    "explanation": "Validation and safe handling reduce the chance that input is interpreted as executable instructions."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is a secure software development lifecycle?",
+    "options": [
+      "Integrate security practices into planning, development, testing, and release",
+      "Perform security work only after a breach",
+      "Avoid testing code before deployment",
+      "Use a shared password during development"
+    ],
+    "answerIndex": 0,
+    "explanation": "An SSDLC addresses security throughout the software lifecycle."
+  },
+  {
+    "category": "Identity and security",
+    "question": "What is the purpose of a certificate authority?",
+    "options": [
+      "Issue and manage digital certificates that bind identities to public keys",
+      "Allocate CPU quotas to applications",
+      "Replicate encrypted data",
+      "Route packets between private networks"
+    ],
+    "answerIndex": 0,
+    "explanation": "Certificate authorities support public-key trust by issuing certificates."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is an operational runbook?",
+    "options": [
+      "Documented steps for handling a routine operational task or incident",
+      "A database index definition",
+      "An invoice for cloud services",
+      "A user authentication protocol"
+    ],
+    "answerIndex": 0,
+    "explanation": "Runbooks help operators perform common procedures consistently."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is a post-incident review intended to do?",
+    "options": [
+      "Understand contributing factors and improve future response",
+      "Assign blame before examining evidence",
+      "Delete monitoring data",
+      "Guarantee that the system will never fail again"
+    ],
+    "answerIndex": 0,
+    "explanation": "Blameless reviews identify systemic improvements and capture incident learning."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is mean time to detect (MTTD)?",
+    "options": [
+      "Average time between an incident starting and being detected",
+      "Average time to create a cloud account",
+      "Maximum allowed database storage",
+      "Time for a user to complete MFA"
+    ],
+    "answerIndex": 0,
+    "explanation": "MTTD measures how quickly a team becomes aware of an incident."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is mean time to recover (MTTR) commonly used to measure?",
+    "options": [
+      "Average time to restore service after an incident",
+      "Average time to write a code review",
+      "The age of the oldest backup",
+      "The rate of incoming API requests"
+    ],
+    "answerIndex": 0,
+    "explanation": "MTTR tracks the average duration required to restore normal service."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "Why use synthetic monitoring?",
+    "options": [
+      "Run simulated checks to verify key user journeys or endpoints",
+      "Replace all real user traffic records",
+      "Generate cryptographic keys",
+      "Create cloud resource invoices"
+    ],
+    "answerIndex": 0,
+    "explanation": "Synthetic probes can detect availability or performance problems even when users are inactive."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is a health probe?",
+    "options": [
+      "A check that reports whether a service or instance is functioning",
+      "A tool to archive old user accounts",
+      "A control for encrypting stored files",
+      "A method for calculating egress fees"
+    ],
+    "answerIndex": 0,
+    "explanation": "Health probes provide signals used for routing, monitoring, or recovery decisions."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "Why synchronize clocks across distributed systems?",
+    "options": [
+      "Make event ordering and cross-system troubleshooting more reliable",
+      "Increase the number of available CPU cores",
+      "Prevent all network packet loss",
+      "Replace identity authentication"
+    ],
+    "answerIndex": 0,
+    "explanation": "Consistent timestamps make logs and traces easier to correlate."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is observability?",
+    "options": [
+      "The ability to infer internal system behavior from emitted telemetry",
+      "A guarantee that a service is always available",
+      "A method for compressing database tables",
+      "A billing model for network services"
+    ],
+    "answerIndex": 0,
+    "explanation": "Logs, metrics, and traces help explain a system's internal state from its outputs."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "What is a change management process intended to support?",
+    "options": [
+      "Assess, approve, and track changes while managing risk",
+      "Prevent every change to production",
+      "Hide deployments from operators",
+      "Replace automated validation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Change management coordinates changes and helps reduce unintended operational impact."
+  },
+  {
+    "category": "Operations and monitoring",
+    "question": "Why maintain an asset inventory of cloud resources?",
+    "options": [
+      "Know what exists, who owns it, and how it should be managed",
+      "Make all resources publicly reachable",
+      "Replace billing reports",
+      "Disable resource lifecycle policies"
+    ],
+    "answerIndex": 0,
+    "explanation": "An accurate inventory underpins security, governance, operations, and cost management."
+  }
+]

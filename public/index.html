@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <meta name="description" content="Practice cloud architecture fundamentals with a 200-question mock exam.">
+    <title>Cloud Certified Architect Foundation — Mock Exam</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Cloud Architect Foundation Mock Exam home">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span>Cloud<span class="brand-light">Foundations</span></span>
+        </a>
+        <span class="header-label">PRACTICE EXAM</span>
+      </header>
+
+      <section class="exam-intro" aria-labelledby="exam-title">
+        <p class="eyebrow">KNOWLEDGE CHECK</p>
+        <h1 id="exam-title">Cloud Certified Architect<br class="desktop-break"> Foundation</h1>
+        <p class="intro-copy">Build confidence in cloud concepts, architecture, security, and operations.</p>
+      </section>
+
+      <div class="exam-layout">
+        <aside class="category-panel" aria-labelledby="category-title">
+          <div class="category-panel-heading">
+            <h2 id="category-title">Exam categories</h2>
+            <p>Question weightage</p>
+          </div>
+          <div id="category-list" class="category-list" aria-live="polite">
+            <p class="category-loading">Loading categories…</p>
+          </div>
+        </aside>
+
+        <section class="exam-card" aria-label="Mock exam">
+          <div class="exam-meta">
+            <div class="progress-copy">
+              <span id="question-progress">Loading questions…</span>
+              <span id="answered-count" class="answered-count"></span>
+            </div>
+            <div
+              class="progress-track"
+              id="progress-track"
+              role="progressbar"
+              aria-label="Exam progress"
+              aria-valuemin="0"
+              aria-valuemax="200"
+              aria-valuenow="0"
+            >
+              <span id="progress-fill" class="progress-fill"></span>
+            </div>
+          </div>
+
+          <div id="question-content" aria-live="polite" aria-atomic="true">
+            <div class="loading-state">
+              <span class="spinner" aria-hidden="true"></span>
+              <p>Preparing your exam…</p>
+            </div>
+          </div>
+
+          <div id="navigation" class="navigation" hidden>
+            <button id="previous-button" class="button button-secondary" type="button">
+              <span aria-hidden="true">←</span> Previous
+            </button>
+            <button id="submit-button" class="button button-submit" type="button" disabled>
+              Submit answer
+            </button>
+            <button id="next-button" class="button button-primary" type="button">
+              Next <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <p class="page-footnote">Take your time. Your answers stay on this page as you navigate.</p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "cloud-architect-foundation-mock-exam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive cloud architecture foundation mock exam.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
